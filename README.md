@@ -86,16 +86,25 @@ Git Bash is an application for Microsoft Windows environments which provides an 
 
 *Line Commands in Git Bash for Customers Fax Query*
 - Step 1 - Know the drivepoint access which you have
+
         $ pwd -->
        /c/Users/AHirani
-- Step 2 - List all directories in that drive (note that 'ls -a' will display the PyCharm queries for Naan Factory 2)
+       
+- Step 2 - List all directories in that drive (note that 'ls -a' will display the PyCharm queries for Customers Fax Table)
+
        $ ls -a
+       
 - Step 3 - Access PyCharmProjects and the corresponding file and initialise an empty Git Repository
+
        $ cd PycharmProjects
        $ git init
+       
 - Step 4 - Check Git Status
+
        $ git status
+       
 - Step 5 - Add and commit the PyCharm processes for sql-to-py-prac
+
        Since changes aren't committed:
        $ cd sql-to-py-prac.py
        $ git add .
@@ -104,8 +113,10 @@ Git Bash is an application for Microsoft Windows environments which provides an 
        $ git add .
        Then commit second save:
        $ git commit -m "Completed all tasks and saved"
+   
 - Step 6 - Let Git create the changes in files and insert new data into the Repository
 - Step 7 - Confirm Git Status after letting Git add into the repository
+
        $ git status
        You will see this message:
        'On branch master nothing to commit, 
@@ -116,6 +127,7 @@ And there you have it. You have successfully completed the task and are on your 
 Please note: **the README.md (this file) needs to also be committed**
 
 - Step 8: Add and commit the README.md file
+
         $ git add README.md
         $ git commit -m "README.md compiled and completed
         $ git add README.md
