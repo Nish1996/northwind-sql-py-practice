@@ -84,7 +84,7 @@ Finally we have to Git Bash all the processes and send to Github:
 ##*What is Git Bash?*
 Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
 
-##*Line Commands in Git Bash for Naan Factory 2*
+##*Line Commands in Git Bash for Customers Fax Query*
 - Step 1 - Know the drivepoint access which you have
 -      $ pwd -->
        /c/Users/AHirani
