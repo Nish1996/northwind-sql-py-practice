@@ -1,6 +1,8 @@
+
 # SQL to Python Linkages - Homework Exercise
 
 ## Requirements
+
 This exercise is to help further consolidate the linkages and connections between Python and SQL and vice-versa
 
 What is needed:
@@ -9,7 +11,9 @@ What is needed:
 3) Iterate over the cursor and get out the relevant information
 4) We need their company name, contact name and phone number
 
+
 ## Solution to Problem
+
 First of all we need to install 'pyodbc' from the Settings panel:
 ````
 File -- Settings -- Project -- 
@@ -86,17 +90,26 @@ Git Bash is an application for Microsoft Windows environments which provides an 
 
 ## *Line Commands in Git Bash for Customers*
 - Step 1 - Know the drivepoint access which you have
--      $ pwd -->
+
+        $ pwd -->
        /c/Users/AHirani
-- Step 2 - List all directories in that drive (note that 'ls -a' will display the PyCharm queries for Naan Factory 2)
--      $ ls -a
+       
+- Step 2 - List all directories in that drive (note that 'ls -a' will display the PyCharm queries for Customers Fax Table)
+
+       $ ls -a
+       
 - Step 3 - Access PyCharmProjects and the corresponding file and initialise an empty Git Repository
--      $ cd PycharmProjects
+
+       $ cd PycharmProjects
        $ git init
+       
 - Step 4 - Check Git Status
--      $ git status
+
+       $ git status
+       
 - Step 5 - Add and commit the PyCharm processes for sql-to-py-prac
--      Since changes aren't committed:
+
+       Since changes aren't committed:
        $ cd sql-to-py-prac.py
        $ git add .
        Then commit first save:
@@ -104,9 +117,11 @@ Git Bash is an application for Microsoft Windows environments which provides an 
        $ git add .
        Then commit second save:
        $ git commit -m "Completed all tasks and saved"
+   
 - Step 6 - Let Git create the changes in files and insert new data into the Repository
 - Step 7 - Confirm Git Status after letting Git add into the repository
--      $ git status
+
+       $ git status
        You will see this message:
        'On branch master nothing to commit, 
        working tree clean'
@@ -116,7 +131,8 @@ And there you have it. You have successfully completed the task and are on your 
 Please note: **the README.md (this file) needs to also be committed**
 
 - Step 8: Add and commit the README.md file
--       $ git add README.md
+
+        $ git add README.md
         $ git commit -m "README.md compiled and completed
         $ git add README.md
         $ git commit -m "Added README.md in commit under Git
